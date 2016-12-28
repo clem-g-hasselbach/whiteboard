@@ -30,9 +30,9 @@ implements ActionListener
 	String[] dtNames ={"Arrow", "Line", "Rectangle", "Oval", "Scribble", "Text", "Image", "Erase"};
 	JRadioButton[] dtButtons = new JRadioButton[dtNames.length];
 	JCheckBox filledBox = new JCheckBox("Filled");
-	Color[] colors = {Color.black, Color.red, Color.cyan, Color.blue, 
+	Color[] colors = {Color.black, Color.red, Color.cyan, Color.blue, Color.LIGHT_GRAY,
 			Color.green, Color.darkGray, Color.magenta, Color.orange, Color.pink, Color.yellow};
-	String[] colorText={"black", "red", "cyan", "blue", 
+	String[] colorText={"black", "red", "cyan", "blue", "lightGray",
 			"green", "darkGray", "magenta", "orange", "pink", "yellow"};
 	ButtonGroup colorGroup = new ButtonGroup();
 	JRadioButton[] colorButtons = new JRadioButton[colors.length];
